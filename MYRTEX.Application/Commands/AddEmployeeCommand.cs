@@ -9,9 +9,7 @@ namespace MYRTEX.Application.Commands
     /// </summary>
     public class AddEmployeeCommand : IRequest<EmployeeEntity>
     {
-        public string FirstName { get; set; } = null!;
-        public string LastName { get; set; } = null!;
-        public string MiddleName { get; set; } = null!;
+        public string FIO { get; set; }
         public string Department { get; set; } = null!;
         public DateTime DateOfBirth { get; set; } = default!;
         public DateTime EmploymentDate { get; set; } = default!;

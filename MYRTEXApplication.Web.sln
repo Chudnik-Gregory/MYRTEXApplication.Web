@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Web", "MYRTEXApplication.Web\MYRTEX.Web.csproj", "{73C53832-85BC-48EA-8915-04A3FE2DF1BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MYRTEX.Web", "MYRTEXApplication.Web\MYRTEX.Web.csproj", "{73C53832-85BC-48EA-8915-04A3FE2DF1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Application", "MYRTEX.Application\MYRTEX.Application.csproj", "{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MYRTEX.Application", "MYRTEX.Application\MYRTEX.Application.csproj", "{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Domain", "MYRTEX.Domain\MYRTEX.Domain.csproj", "{4677452F-942D-4B2A-9340-C4813A4404D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MYRTEX.Domain", "MYRTEX.Domain\MYRTEX.Domain.csproj", "{4677452F-942D-4B2A-9340-C4813A4404D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Infrastructure", "MYRTEX.Infrastructure\MYRTEX.Infrastructure.csproj", "{EC930B23-EBB9-4345-8E1A-057275BFDA79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MYRTEX.Infrastructure", "MYRTEX.Infrastructure\MYRTEX.Infrastructure.csproj", "{EC930B23-EBB9-4345-8E1A-057275BFDA79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{5310F3D3-EC24-4704-ABEC-355167771CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{C20CE125-4398-4985-984D-8D73E8A61268}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +40,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73C53832-85BC-48EA-8915-04A3FE2DF1BE} = {5310F3D3-EC24-4704-ABEC-355167771CF1}
+		{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1} = {5310F3D3-EC24-4704-ABEC-355167771CF1}
+		{4677452F-942D-4B2A-9340-C4813A4404D6} = {5310F3D3-EC24-4704-ABEC-355167771CF1}
+		{EC930B23-EBB9-4345-8E1A-057275BFDA79} = {5310F3D3-EC24-4704-ABEC-355167771CF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C43A4D78-707C-45E7-A93A-FABEE524CFEF}

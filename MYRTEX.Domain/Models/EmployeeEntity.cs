@@ -9,11 +9,11 @@ namespace MYRTEX.Domain.Models
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
-        public string MiddleName { get; set; }
+        public string? MiddleName { get; set; }
         [Required]
         public string Department { get; set; }
-        public DateTime BirthDate { get; set; }
-        public DateTime EmploymentDate { get; set; }
+        public DateTime? BirthDate { get; set; }
+        public DateTime? EmploymentDate { get; set; }
         [Required]
         public decimal Salary { get; set; }
 
