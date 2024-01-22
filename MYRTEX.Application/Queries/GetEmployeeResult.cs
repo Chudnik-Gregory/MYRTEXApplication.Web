@@ -1,5 +1,4 @@
 using System;
-using System.Net.Sockets;
 
 namespace MYRTEX.Application.Queries
 {

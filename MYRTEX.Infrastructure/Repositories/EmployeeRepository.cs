@@ -6,7 +6,6 @@ using MYRTEX.Domain.Exceptions;
 using MYRTEX.Domain.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MYRTEX.Infrastructure.Repositories

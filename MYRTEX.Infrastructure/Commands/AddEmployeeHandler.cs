@@ -4,7 +4,6 @@ using MYRTEX.Application.Commands;
 using System.Threading;
 using System.Threading.Tasks;
 using MYRTEX.Application.Repositories;
-using MYRTEX.Application.Queries;
 
 namespace MYRTEX.Infrastructure.Commands
 {

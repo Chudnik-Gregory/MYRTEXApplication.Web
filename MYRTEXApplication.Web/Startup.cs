@@ -18,7 +18,7 @@ using MYRTEX.Infrastructure.Commands;
 using MYRTEX.Domain.Models;
 using Microsoft.Extensions.Logging;
 
-namespace MYRTEXApplication.Web
+namespace MYRTEX.Web
 {
     public class Startup
     {

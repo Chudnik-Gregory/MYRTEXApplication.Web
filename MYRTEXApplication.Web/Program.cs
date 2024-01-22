@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace MYRTEXApplication.Web
+namespace MYRTEX.Web
 {
     public static class Program
     {

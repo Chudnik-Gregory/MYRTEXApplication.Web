@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using MYRTEX.Application.Commands;
 using MYRTEX.Application.Repositories;
-using MYRTEX.Domain.Models;
 using System.Threading.Tasks;
 using System.Threading;
 
