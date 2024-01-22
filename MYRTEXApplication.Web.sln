@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Web", "MYRTEXApplication.Web\MYRTEX.Web.csproj", "{73C53832-85BC-48EA-8915-04A3FE2DF1BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Application", "MYRTEX.Application\MYRTEX.Application.csproj", "{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Domain", "MYRTEX.Domain\MYRTEX.Domain.csproj", "{4677452F-942D-4B2A-9340-C4813A4404D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYRTEX.Infrastructure", "MYRTEX.Infrastructure\MYRTEX.Infrastructure.csproj", "{EC930B23-EBB9-4345-8E1A-057275BFDA79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73C53832-85BC-48EA-8915-04A3FE2DF1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C53832-85BC-48EA-8915-04A3FE2DF1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C53832-85BC-48EA-8915-04A3FE2DF1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C53832-85BC-48EA-8915-04A3FE2DF1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F14B5CF-2C66-460E-9F5A-BBCACE231CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4677452F-942D-4B2A-9340-C4813A4404D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4677452F-942D-4B2A-9340-C4813A4404D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4677452F-942D-4B2A-9340-C4813A4404D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4677452F-942D-4B2A-9340-C4813A4404D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC930B23-EBB9-4345-8E1A-057275BFDA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC930B23-EBB9-4345-8E1A-057275BFDA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC930B23-EBB9-4345-8E1A-057275BFDA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC930B23-EBB9-4345-8E1A-057275BFDA79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C43A4D78-707C-45E7-A93A-FABEE524CFEF}
+	EndGlobalSection
+EndGlobal
