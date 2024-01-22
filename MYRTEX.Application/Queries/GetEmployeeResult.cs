@@ -13,8 +13,8 @@ namespace MYRTEX.Application.Queries
         public string LastName { get; set; }
         public string MiddleName { get; set; }
         public string Department { get; set; }
-        public DateTime BirthDate { get; set; }
-        public DateTime EmploymentDate { get; set; }
+        public DateTime? BirthDate { get; set; }
+        public DateTime? EmploymentDate { get; set; }
         public decimal Salary { get; set; }
     }
 }
