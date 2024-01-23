@@ -39,7 +39,7 @@ namespace MYRTEX.Infrastructure.Commands
                 FirstName = firstName,
                 LastName = lastName,
                 MiddleName = middleName,
-                BirthDate = request.DateOfBirth,
+                BirthDate = request.BirthDate,
                 EmploymentDate = request.EmploymentDate,
                 Department = request.Department,
                 Salary = request.Salary,
