@@ -1,0 +1,52 @@
+<form [formGroup]="form">
+  <div class="tui-form__row">
+    <tui-input
+      formControlName="fio"
+      tuiHintContent="Фамилия, имя, отчество сотрудника"
+    >
+      ФИО
+      <input placeholder="Введите ФИО" tuiTextfield />
+      <span class="tui-required"></span>
+    </tui-input>
+  </div>
+  <div class="tui-form__row">
+    <tui-input formControlName="department" tuiHintContent="Отдел сотрудника">
+      Отдел
+      <input placeholder="Введите отдел" tuiTextfield />
+      <span class="tui-required"></span>
+    </tui-input>
+  </div>
+  <div class="tui-form__row">
+    <tui-input-date
+      formControlName="birthDate"
+      tuiUnfinishedValidator="Завершите заполнение поля"
+    >
+      Выберите дату рождения
+    </tui-input-date>
+  </div>
+  <div class="tui-form__row">
+    <tui-input-date
+      formControlName="employmentDate"
+      tuiUnfinishedValidator="Завершите заполнение поля"
+    >
+      Выберите дату приема на работу
+    </tui-input-date>
+  </div>
+  <div class="tui-form__row">
+    <tui-input-number formControlName="salary">
+      Введите заработную плату
+    </tui-input-number>
+  </div>
+  <div class="tui-form__buttons">
+    <button
+      appearance="primary"
+      tuiButton
+      type="button"
+      icon="tuiIconSave"
+      (click)="saveEmployee()"
+      [disabled]="form.invalid"
+    >
+      Сохранить
+    </button>
+  </div>
+</form>

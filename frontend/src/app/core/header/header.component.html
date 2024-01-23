@@ -1,0 +1,25 @@
+<header>
+  <nav>
+    <tui-tabs [(activeItemIndex)]="activeItemIndex">
+      <button
+        tuiTab
+        [routerLink]="item.routerLink"
+        *ngFor="let item of NAV_ITEMS; trackBy: trackByNavItems"
+      >
+        <tui-svg [src]="item.icon" class="tui-space_right-2"></tui-svg>
+        {{ item.text }}
+      </button>
+      <button
+        class="tui-space_left-5 tui-space_top-1"
+        appearance="outline"
+        tuiButton
+        type="button"
+        (click)="changeTheme()"
+        size="m"
+      >
+        {{ theme.currentTheme === ThemeOption.Dark ? 'Светлая' : 'Темная' }}
+        тема
+      </button>
+    </tui-tabs>
+  </nav>
+</header>

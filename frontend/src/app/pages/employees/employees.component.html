@@ -1,0 +1,75 @@
+<div
+  style="
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  "
+>
+  <h3 class="tui-text_h3">Сотрудники</h3>
+  <button
+    appearance="primary"
+    tuiButton
+    type="button"
+    icon="tuiIconUserPlus"
+    size="m"
+    (click)="openModal('ADD')"
+  >
+    Добавить
+  </button>
+</div>
+<table
+  tuiTable
+  class="table"
+  [columns]="columns"
+  *ngIf="employees && employees.length > 0"
+>
+  <thead>
+    <tr tuiThGroup>
+      <th tuiTh [resizable]="true" *ngFor="let item of columns">{{ item }}</th>
+    </tr>
+  </thead>
+  <tbody tuiTbody [data]="employees">
+    <tr *ngFor="let item of employees" tuiTr>
+      <td *tuiCell="'Ф.И.О.'" tuiTd>
+        {{ item.fio }}
+      </td>
+      <td *tuiCell="'Отдел'" tuiTd>
+        {{ item.department }}
+      </td>
+      <td *tuiCell="'Дата рождения'" tuiTd>
+        {{ item.birthDate | date : 'dd.MM.yyyy' }}
+      </td>
+      <td *tuiCell="'Дата устройства на работу'" tuiTd>
+        {{ item.employmentDate | date : 'dd.MM.yyyy' }}
+      </td>
+      <td *tuiCell="'Заработная плата'" tuiTd>
+        {{ item.salary }}
+      </td>
+      <td *tuiCell="'Удаление/редактирование сотрудника'" tuiTd>
+        <div tuiGroup class="tui-space_top-2 tui-space_bottom-2">
+          <button
+            appearance="primary"
+            tuiButton
+            type="button"
+            icon="tuiIconUserCheck"
+            size="m"
+            (click)="openModal('EDIT', item)"
+          >
+            Изменить
+          </button>
+          <button
+            appearance="accent"
+            tuiButton
+            type="button"
+            icon="tuiIconUserX"
+            size="m"
+            (click)="deleteEmployee(item.id)"
+          >
+            Удалить
+          </button>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>

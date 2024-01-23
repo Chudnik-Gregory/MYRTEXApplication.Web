@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{E54F3A01-6C8
 		..\..\Documents\SQL Server Management Studio\MYRTEX.sql = ..\..\Documents\SQL Server Management Studio\MYRTEX.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{BB868213-E178-48B7-96E5-ECF4EC04E662}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
