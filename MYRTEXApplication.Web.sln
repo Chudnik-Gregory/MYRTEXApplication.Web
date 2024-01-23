@@ -13,7 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MYRTEX.Infrastructure", "MY
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{5310F3D3-EC24-4704-ABEC-355167771CF1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{C20CE125-4398-4985-984D-8D73E8A61268}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{E54F3A01-6C88-4D16-9B0E-BD480955AE56}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Documents\SQL Server Management Studio\MYRTEX.sql = ..\..\Documents\SQL Server Management Studio\MYRTEX.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
